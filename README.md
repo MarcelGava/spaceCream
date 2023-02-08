@@ -7,7 +7,7 @@
 O projeto Space Cream foi desenvolvido durante o stage 03 no Explorer da Rocketseat. O proejto em questão trata-se de um desafio visando trabalhar com mobile-first. <br/>
 
 <p align="center">
-  <img alt="projeto treine.me" src="./images/preview.jpg" width="70%">
+  <img alt="projeto treine.me" src="./images/preview.jpg" width="50%">
 </p>
 
 ## 🚀 Tecnologias
