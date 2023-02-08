@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsla(218, 17%, 62%, 1);
+  --secundary-color: hsla(275, 18%, 79%, 1);
+  --page-color: hsla(233, 100%, 97%, 1);
+  --bgcard-color: hsla(312, 91%, 96%, 1);
+  --ct-h1: hsla(0, 0%, 100%, 1);
+  --cp-p: hsla(274, 84%, 12%, 1);
+  --ct-h2: hsla(232, 17%, 35%, 1);
+
+  --tf: 'Staatliches', cursive;
+  --pf: 'Palanquin', sans-serif;
+
+  font-size: 62.5%;
+}
+
+.page {
+  width: 38.4rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: var(--page-color);
+  padding-bottom: 6rem;
+}
+
+header {
+  background-color: var(--primary-color);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  height: 27.9rem;
+  width: 38.4rem;
+}
+
+header img {
+  margin: 3.2rem auto 1.2rem;
+}
+
+header h1 {
+  color: var(--ct-h1);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  font-family: var(--tf);
+  font-size: 4rem;
+  line-height: 3.4rem;
+  letter-spacing: 0.05em;
+
+  background-color: var(--secundary-color);
+
+  width: 38.4rem;
+  height: 4.9rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main {
+  margin-top: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  gap: 3.2rem;
+}
+
+main p {
+  height: 7.5rem;
+  margin: 1.4rem 3rem 5rem;
+  color: var(--cp-p);
+  font-family: var(--pf);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.8rem;
+}
+
+.card {
+  position: relative;
+}
+
+.card h2 {
+  background-color: var(--bgcard-color);
+  color: var(--ct-h2);
+  font-family: var(--tf);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  border-radius: 8rem;
+
+  width: 112px;
+  height: 35px;
+  position: absolute;
+  top:1.6rem;
+  right: 1.6rem;
+}
